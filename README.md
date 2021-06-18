@@ -9,6 +9,11 @@ O projeto BsIn tem como objetivo prover uma aplicação web que ajude e informe 
 
 ## Tutoriais
 
-[Curso de Django 2](https://www.youtube.com/watch?v=LZsjuSBW5YM&list=RDCMUCDoFiMhpOnLFq1uG4RL4xag&index=2)
+- [Curso de Django 2](https://www.youtube.com/watch?v=LZsjuSBW5YM&list=RDCMUCDoFiMhpOnLFq1uG4RL4xag&index=2)
+
+## Docs
+
+- [Documento de visão](https://github.com/JFmaia/BsIn/blob/main/docs/Documento_de_visao.md)
+- [Documento de modelos](https://github.com/JFmaia/BsIn/blob/main/docs/Documento_de_visao.md)
 
 
