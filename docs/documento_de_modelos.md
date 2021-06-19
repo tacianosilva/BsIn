@@ -20,7 +20,7 @@ Geralmente uma tabela que descreve os limites e restrições de cada atributo/ca
 
 (coloque aqui, artigos, livros e sites utilizados e citados no documento).
 
-[Link para o Documento de Visão.](documento_de_visao.md)
+[Link para o Documento de Visão.](https://github.com/JFmaia/BsIn/blob/main/docs/Documento_de_visao.md)
 
 
 
