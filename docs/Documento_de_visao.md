@@ -48,11 +48,11 @@ Tabela com o mapeamento dos riscos do projeto, as possíveis soluções e os res
 
 | Data    | Risco   | Prioridade    | Responsável   | Status    | Providências/Solução      |
 | ------- | ------- | ------------- | ------------- | --------- | ------------------------- |
-| 20/06/2021 | Não aprendizado das ferramentas utilizadas pelos componentes do grupo | Alta | Todos | Vigente | Reforçar estudos sobre as ferramentas e aulas com a integrante que conhece a ferramenta. | 
-| 20/06/2021 | Divisão de tarefas mal sucedida | Baixa | Gerente | Vigente | Acompanhar de perto o desenvolvimento de cada membro da equipe. |
-| 20/06/2021 | Implementação de protótipo com as tecnologias | Alta | Todos | Resolvido | Encontrar tutorial com a maioria da tecnologia e implementar um caso base do sistema. |
-| 20/06/2021 | Ausênsia por qualquer motivo de um membro | Média | Gerente | Vigente | Planejar o cronograma tendo em base a agenda do projeto, realocando tarefas para os outros membros e prorrogando a data de finalização. |
-| 20/06/2021 | Ausência por qualquer motivo do cliente | Média | Gerentes | Vigente | Planejar o cronograma tendo em base a agenda do cliente. |
+| 20/06/2021 | Não aprendizado das ferramentas utilizadas pelos componentes do grupo | Alta | Todos | Vigente | Reforçar estudos sobre as ferramentas e aulas com a integrante que conhece a ferramenta | 
+| 20/06/2021 | Divisão de tarefas mal sucedida | Baixa | Gerente | Vigente | Acompanhar de perto o desenvolvimento de cada membro da equipe |
+| 20/06/2021 | Implementação de protótipo com as tecnologias | Alta | Todos | Resolvido | Encontrar tutorial com a maioria da tecnologia e implementar um caso base do sistema |
+| 20/06/2021 | Ausênsia por qualquer motivo de um membro | Média | Gerente | Vigente | Planejar o cronograma tendo em base a agenda do projeto, realocando tarefas para os outros membros e prorrogando a data de finalização |
+| 20/06/2021 | Ausência por qualquer motivo do cliente | Média | Gerentes | Vigente | Planejar o cronograma tendo em base a agenda do cliente |
 
 
 
