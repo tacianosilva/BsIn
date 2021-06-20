@@ -15,5 +15,6 @@ O projeto BsIn tem como objetivo prover uma aplicação web que ajude e informe 
 
 - [Documento de visão](https://github.com/JFmaia/BsIn/blob/main/docs/Documento_de_visao.md)
 - [Documento de modelos](https://github.com/JFmaia/BsIn/blob/main/docs/Documento_de_visao.md)
+- [Tutorial](https://github.com/JFmaia/BsIn/blob/main/docs/tutorial.md)
 
 
