@@ -12,7 +12,7 @@ Clone o projeto (se for membro) ou Fork o projeto (git clone);
 
 ## Passo 3
 
-> Faça commits no branch indicando o id da issue no final. Coloque mensagens curtas e significativas: __git commit -m "Minha mensagem curta e significativa"#id__ ;
+> Faça commits no branch indicando o id da issue no final. Coloque mensagens curtas e significativas: __git commit -m "Minha mensagem curta e significativa #id"__ ;
 
 ## Passo 4
 
