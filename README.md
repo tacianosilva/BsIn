@@ -10,6 +10,7 @@ O projeto BsIn tem como objetivo prover uma aplicação web que ajude e informe 
 ## Tutoriais
 
 - [Curso de Django 2](https://www.youtube.com/watch?v=LZsjuSBW5YM&list=RDCMUCDoFiMhpOnLFq1uG4RL4xag&index=2)
+- [Tutorial em video, como usar o git com branch](https://drive.google.com/file/d/1A0odHyz7f2663ia3H8gi9JUJFCrcRSAu/view?usp=sharing)
 
 ## Docs
 
