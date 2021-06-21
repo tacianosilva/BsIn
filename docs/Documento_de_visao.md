@@ -28,7 +28,15 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 
 ## Lista de Requisitos Funcionais
 
-...
+| Requisitos | Descrição | Ator |
+| ---------- | :-------: | :--: |
+| RF001 - Cadastro de Usurário | O usuario se cadastrará na aplicação, no cadastro de usuario tem nome, e-mail, matricula, senha e celular. | Usuário |
+| RF002 - Cadastro de Evento | O evento tem codigo, titulo, data, descrição, imagem, palestras, mini-cursos, oficinas e link. | Administrador |
+| RF003 - Cadastro de Tutorial | O tutorial tem codigo, titulo, data, autor, descrição. | Administrador |
+| RF004 - Cadastro de Projeto de Laboratórios | O projeto tem codigo, titulo, autor, descrição , estado, candidatos. | Administrador e Chefes |
+
+
+
 
 ### Modelo Conceitual
 
