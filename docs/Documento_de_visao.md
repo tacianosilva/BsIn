@@ -18,7 +18,7 @@
 | Membro    | Competêcia    |
 | --------- |:---------:    |
 | Flavio Roberto |  |
-| Gabriel Gonçalo |  |
+| Gabriel Gonçalo | Desenvolvedor Python, Django, C |
 | José Flávio | Gestão, Desenvolvedor Dart, Flutter, VScode, Python, Django, Markdown |
 | Pedro Henrique |  |
 
@@ -47,7 +47,11 @@ Abaixo apresentamos o modelo conceitual usando o __YUML__.
 
 ## Lista de Requisitos Não-Funcionais
 
-...
+| Identificador | Nome | Categoria | Descrição |
+| ------------- | :--: | :-------: | :-------: |
+| RNF001 | Acessibilidade via navegador | Usabilidade | O sistema será construido para rodar em ambiente web |
+| RNF002 | Agilidade no atendimento | Disponibilidade | Todas as perguntas passarão por um curto prazo de avaliação, e se tiver relevância, será encaminhado para o forum de perguntas |
+| RNF003 | Privacidade ao cliente | Ética | O sistema não fornecerá quaisquer dados de caráter privativo |
 
 ## Riscos
 
