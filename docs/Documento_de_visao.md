@@ -8,7 +8,7 @@
 
 | Membro    | Papel     | Email     |
 | --------- |:---------:|:---------:|
-| Flavio Roberto | Analista, Desenvolvedor | |
+| Flavio Roberto | Analista, Desenvolvedor | flaviovorthrox@yahoo.com.br|
 | Gabriel Gonçalo | Analista, Desenvolvedor | |
 | José Flávio | Gerente, Desenvolvedor | jfmaia741@gmail.com |
 | Pedro Henrique | Analista, Desenvolvedor | |
@@ -17,7 +17,7 @@
 
 | Membro    | Competêcia    |
 | --------- |:---------:    |
-| Flavio Roberto |  |
+| Flavio Roberto | Desenvolvedor Python Django, Android Java |
 | Gabriel Gonçalo | Desenvolvedor Python, Django, C |
 | José Flávio | Gestão, Desenvolvedor Dart, Flutter, VScode, Python, Django, Markdown |
 | Pedro Henrique |  |
@@ -30,11 +30,13 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 
 | Requisitos | Descrição | Ator |
 | ---------- | :-------: | :--: |
-| RF001 - Cadastro de Usurário | O usuario se cadastrará na aplicação, no cadastro de usuario tem nome, e-mail, matricula, senha e celular. | Usuário |
-| RF002 - Manter Cadastro de Evento | O evento tem codigo, titulo, data, descrição, imagem, palestras, mini-cursos, oficinas e link. | Administrador |
-| RF003 - Manter Cadastro de Laboratórios | O projeto tem codigo, titulo, autor, descrição , estado, candidatos. | Administrador |
-
-
+| RF001 - Manter um cadastro de Autores | Cadastro dos Autores/Administradores dos Site | Administrador |
+| RF002 - manter cadastro de Usurário | O usuario se cadastrará na aplicação, no cadastro de usuario tem nome, e-mail, matricula, senha e celular. | Usuário |
+| RF003 - Manter um cadastro de Post| Cadastros para genrenciar os posts | Administrador |
+| RF004 - Manter um cadastro para os Comentarios | Administrar os comentarios: autorizar ou apagar-los | Administrador |
+| RF005 - Manter Cadastro de Evento | O evento tem codigo, titulo, data, descrição, imagem, palestras, mini-cursos, oficinas e link. | Administrador |
+| RF006 - Manter Cadastro de Laboratórios | O projeto tem codigo, titulo, autor, descrição , estado, candidatos. | Administrador |
+| RF007 - cadastro de noticias | Divulgar noticias com links externos | Administrador |
 
 
 ### Modelo Conceitual
