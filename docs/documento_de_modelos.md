@@ -6,7 +6,7 @@
 
 ## Modelo Conceitual
 
-...
+[Linke para o modelo](https://whimsical.com/2bn9CaFL7wd13ZWvYS2Ekd@2Ux7TurymMmgVQB5Ls7w)
 
 ### Descrição das Entidades
 
