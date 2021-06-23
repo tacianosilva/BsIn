@@ -38,3 +38,5 @@ Atualizando sua branch com as atualizações da main, primeiro entre e sua branc
 > git fetch origin
 
 > git rebase origin/main
+
+Pronto sua branch já estar atualizada bom trabalho.
