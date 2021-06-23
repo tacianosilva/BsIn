@@ -25,6 +25,10 @@
 ## Perfis dos Usuários
 
 O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfis/atores:
+| Perfil   | Descrição   |
+| ---------|:---------:  |
+| Administrador | Este usuário podera realizar qualquer função. |
+| Usuário | Este usuário podera comentar post, vê laboratorios e projetos, vê eventos existentes, vê noticias e solicitar criação de post. |
 
 
 ## Lista de Requisitos Funcionais
