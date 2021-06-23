@@ -9,7 +9,7 @@
 | Membro    | Papel     | Email     |
 | --------- |:---------:|:---------:|
 | Flavio Roberto | Analista, Desenvolvedor | flaviovorthrox@yahoo.com.br|
-| Gabriel Gonçalo | Analista, Desenvolvedor | |
+| Gabriel Gonçalo | Analista, Desenvolvedor |  |
 | José Flávio | Gerente, Desenvolvedor | jfmaia741@gmail.com |
 | Pedro Henrique | Analista, Desenvolvedor | |
 
@@ -26,17 +26,19 @@
 
 O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfis/atores:
 
+
 ## Lista de Requisitos Funcionais
 
 | Requisitos | Descrição | Ator |
 | ---------- | :-------: | :--: |
-| RF001 - Manter um cadastro de Autores | Cadastro dos Autores/Administradores dos Site | Administrador |
-| RF002 - manter cadastro de Usurário | O usuario se cadastrará na aplicação, no cadastro de usuario tem nome, e-mail, matricula, senha e celular. | Usuário |
-| RF003 - Manter um cadastro de Post| Cadastros para genrenciar os posts | Administrador |
-| RF004 - Manter um cadastro para os Comentarios | Administrar os comentarios: autorizar ou apagar-los | Administrador |
-| RF005 - Manter Cadastro de Evento | O evento tem codigo, titulo, data, descrição, imagem, palestras, mini-cursos, oficinas e link. | Administrador |
-| RF006 - Manter Cadastro de Laboratórios | O projeto tem codigo, titulo, autor, descrição , estado, candidatos. | Administrador |
-| RF007 - cadastro de noticias | Divulgar noticias com links externos | Administrador |
+| RF001 - Manter cadastro de Autores | Cadastro dos Autores/Administradores dos Site | Administrador |
+| RF002 - Manter cadastro de Usurário | O usuario se cadastrará na aplicação, no cadastro de usuario tem nome, e-mail, matricula, senha e celular. | Usuário |
+| RF003 - Manter cadastro de Post| Post terá codigo, autor ,titulo, data, descrição, imagem | Administrador |
+| RF004 - Manter cadastro para os Comentarios | Administrar os comentarios: autorizar ou apagar-los | Administrador |
+| RF005 - Manter cadastro de Evento | O evento tem codigo, titulo, data, descrição, imagem, palestras, mini-cursos, oficinas e link. | Administrador |
+| RF006 - Manter cadastro de Projetos | O projeto tem codigo, titulo, autores, descrição , estado, candidatos,supervisor e orientador. | Administrador |
+| RF007 - Manter cadastro de Noticias | Divulgar noticias com links externos tendo assim codigo, autor, titulo, descrição e link | Administrador |
+
 
 
 ### Modelo Conceitual
