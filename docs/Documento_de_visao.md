@@ -11,7 +11,7 @@
 | Flavio Roberto | Analista, Desenvolvedor | flaviovorthrox@yahoo.com.br|
 | Gabriel Gonçalo | Analista, Desenvolvedor |  |
 | José Flávio | Gerente, Desenvolvedor | jfmaia741@gmail.com |
-| Pedro Henrique | Analista, Desenvolvedor | p.h.t.s30@gmail.com |
+| Pedro Henrique | Analista, Desenvolvedor | |
 
 ### Matriz de Competências
 
@@ -20,15 +20,11 @@
 | Flavio Roberto | Desenvolvedor Python Django, Android Java |
 | Gabriel Gonçalo | Desenvolvedor Python, Django, C |
 | José Flávio | Gestão, Desenvolvedor Dart, Flutter, VScode, Python, Django, Markdown |
-| Pedro Henrique | Desenvolvedor Python Django, C, Java  |
+| Pedro Henrique |  |
 
 ## Perfis dos Usuários
 
 O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfis/atores:
-| Perfil   | Descrição   |
-| ---------|:---------:  |
-| Administrador | Este usuário podera realizar qualquer função. |
-| Usuário | Este usuário podera comentar post, vê laboratorios e projetos, vê eventos existentes, vê noticias e solicitar criação de post. |
 
 
 ## Lista de Requisitos Funcionais
@@ -42,7 +38,9 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 | RF005 - Manter cadastro de Evento | O evento tem codigo, titulo, data, descrição, imagem, palestras, mini-cursos, oficinas e link. | Administrador |
 | RF006 - Manter cadastro de Projetos | O projeto tem codigo, titulo, autores, descrição , estado, candidatos,supervisor e orientador. | Administrador |
 | RF007 - Manter cadastro de Noticias | Divulgar noticias com links externos tendo assim codigo, autor, titulo, descrição e link | Administrador |
-
+| RF008 - Manter cadastro de Comentarios | O Usuário poderá fazer um comentario, edita-lo ou exclui-lo.| Usuário |
+| RF009 - Manter cadastro de Laboratórios | O laboratório tem codigo, titulo, encarregados, descrição, projetos, membros. | Administrador |
+| RF010 - Manter solicitação de post| A solicitação terá, codigo, autor ,titulo, data, descrição, imagem e será solicitado pelo usuário | Usuário |
 
 
 ### Modelo Conceitual
