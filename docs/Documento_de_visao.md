@@ -33,14 +33,14 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 | ---------- | :-------: | :--: |
 | RF001 - Manter cadastro de Autores | Cadastro dos Autores/Administradores dos Site | Administrador |
 | RF002 - Manter cadastro de Usurário | O usuario se cadastrará na aplicação, no cadastro de usuario tem nome, e-mail, matricula, senha e celular. | Usuário |
-| RF003 - Manter cadastro de Post| Post terá codigo, autor ,titulo, data, descrição, imagem | Administrador |
-| RF004 - Manter cadastro para os Comentarios | Administrar os comentarios: autorizar ou apagar-los | Administrador |
+| RF003 - Manter cadastro de Post| Post terá codigo, autor ,titulo, data, descrição, imagem. | Administrador |
+| RF004 - Manter cadastro para os Comentarios | Administrar os comentarios: autorizar ou apagar-los. | Administrador |
 | RF005 - Manter cadastro de Evento | O evento tem codigo, titulo, data, descrição, imagem, palestras, mini-cursos, oficinas e link. | Administrador |
 | RF006 - Manter cadastro de Projetos | O projeto tem codigo, titulo, autores, descrição , estado, candidatos,supervisor e orientador. | Administrador |
-| RF007 - Manter cadastro de Noticias | Divulgar noticias com links externos tendo assim codigo, autor, titulo, descrição e link | Administrador |
+| RF007 - Manter cadastro de Noticias | Divulgar noticias com links externos tendo assim codigo, autor, titulo, descrição e link. | Administrador |
 | RF008 - Manter cadastro de Comentarios | O Usuário poderá fazer um comentario, edita-lo ou exclui-lo.| Usuário |
 | RF009 - Manter cadastro de Laboratórios | O laboratório tem codigo, titulo, encarregados, descrição, projetos, membros. | Administrador |
-| RF010 - Manter solicitação de post| A solicitação terá, codigo, autor ,titulo, data, descrição, imagem e será solicitado pelo usuário | Usuário |
+| RF010 - Manter solicitação de post| A solicitação terá, codigo, autor ,titulo, data, descrição, imagem e será solicitado pelo usuário. | Usuário |
 
 
 ### Modelo Conceitual
