@@ -46,6 +46,7 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 ### Modelo Conceitual
 
 Abaixo apresentamos o modelo conceitual usando o __YUML__.
+![Modelo Conceitual](https://github.com/JFmaia/BsIn/blob/main/umlproj.PNG)
 
 #### Descrição das Entidades
 
