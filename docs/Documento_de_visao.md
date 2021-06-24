@@ -46,7 +46,7 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 ### Modelo Conceitual
 
 Abaixo apresentamos o modelo conceitual usando o __YUML__.
-![Modelo Conceitual](https://github.com/JFmaia/BsIn/blob/main/umlproj.PNG)
+![Modelo Conceitual](https://github.com/JFmaia/BsIn/blob/main/images/umlproj.PNG)
 
 #### Descrição das Entidades
 
@@ -74,6 +74,9 @@ Tabela com o mapeamento dos riscos do projeto, as possíveis soluções e os res
 
 
 ### Referências
+
+[Link 1](https://docs.google.com/document/d/1cxzXiWN149Nq5htoB88HZVE0GmWTnHemAwHrNYXif98/edit)
+[Link 2](https://github.com/tacianosilva/eng-software-2)
 
 
 
