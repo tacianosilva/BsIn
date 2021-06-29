@@ -6,7 +6,7 @@
 
 ## Modelo Conceitual
 
-[Link para o modelo](https://github.com/JFmaia/BsIn/blob/main/images/umlproj.PNG)
+![Modelo Conceitual](https://github.com/JFmaia/BsIn/blob/main/images/umlproj.PNG)
 
 ### Descrição das Entidades
 
