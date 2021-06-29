@@ -6,12 +6,12 @@
 
 | Interação | Data início | Data final | Apresentação | Gerente | Detalhes |
 | --------- | :---------: | :--------: | :----------: | :-----: | :------: |
-| It1 | 18/06/2021 | 25/06/2021 | 24/06/2021 | Gerente 1 (José Flávio) | Criar Documento de Visão, Modelos e Plano de Interação e Release. |
-| It2 | 26/06/2021 | 09/07/2021 | 08/07/2021 | Gerente 2 ("") | Detalhar US00, Implementar US00, Detalhar US01 e US02. |
-| It3 | 10/07/2021 | 24/07/2021 | 23/07/2021 | Gerente 3 ("") | Implementar US01 e US02, Detalhar US03 e US04, Testar US00. |
-| It4 | 25/07/2021 | 07/08/2021 | 06/08/2021 | Gerente 4 ("") |  |
-| It5 | 08/07/2021 | 21/08/2021 | 20/08/2021 | Gerente 5 ("") |  |
-| It6 | 22/08/2021 | 05/09/2021 | 04/09/2021 | Gerente 6 ("") |  |
+| It1 | 18/06/2021 | 30/06/2021 | 29/06/2021 | Gerente 1 (José Flávio) | Criar Documento de Visão, Modelos e Plano de Interação e Release. |
+| It2 | 31/06/2021 | 12/07/2021 | 11/07/2021 | Gerente 2 (Flávio Roberto) | Detalhar US00, Implementar US00, Detalhar US01 e US02. |
+| It3 | 13/07/2021 | 28/07/2021 | 27/07/2021 | Gerente 3 ("") | Implementar US01 e US02, Detalhar US03 e US04, Testar US00. |
+| It4 | 29/07/2021 | 12/08/2021 | 11/08/2021 | Gerente 4 ("") |  |
+| It5 | 13/07/2021 | 24/08/2021 | 23/08/2021 | Gerente 5 ("") |  |
+| It6 | 25/08/2021 | 08/09/2021 | 07/09/2021 | Gerente 6 ("") |  |
 
 - Observação 1: Cada Iteração de ser cadastrada como Milestones no GitHub.
 - Observação 2: Use este repositório como Modelo.
