@@ -56,10 +56,10 @@ Abaixo apresentamos o modelo conceitual usando o __YUML__.
 | Usuário  | O usuário é uma entidade que aproveitara a aplicação explorandoa e usufruindo das informações oferecidas, podendo ele também contribuir, com seus comentarios e sugestões de posts. |
 | Adiministrador | Sendo como um moderador, podendo fazer tudo na aplicação desde criar a excluir, claro com a máxima cautela, moderando e também dando direitos a outras pessoas para ajudar e escrever post, sendo esses os autores. |
 | Autor | O autor tem direitos, para fazer post, cadastrar laboratório, evento, projetos e notícias, mas não podendo excluir usuarios e nem claro os adms. |
-| Notícia | Uma informação em destaque no site onde terá para todos verem, tendo o titulo do autor, data e descrição, podendo tbm ser feitos comentários nela. |
+| Notícias | Uma informação em destaque no site onde terá para todos verem, tendo o titulo do autor, data e descrição, podendo tbm ser feitos comentários nela. |
 | Evento | Evento como já dito pode ser uma data especial, uma comemoração ou uam reunião, como a semana do bsi, onde temos palestras, coffe break e minicursos, tendo assim suas descrição, data de inicio e fim. |
-| Laboratórios | Os laboratórios são os lugares onde muitos alunos e professores usam para fazer e estudar seus projetos, seja de extensão ou pesquisa, claro com alguem tomando conta de tudo sendo o responsavel e criador do laboratório. |
-| Projetos | Projetos fazem parte de um laboratório, com seus membros, orientador e supervisor, tendo vagas ou não, podem ser de extesão ou pesquisa. |
+| Laboratório | Os laboratórios são os lugares onde muitos alunos e professores usam para fazer e estudar seus projetos, seja de extensão ou pesquisa, claro com alguem tomando conta de tudo sendo o responsavel e criador do laboratório. |
+| Projeto | Projetos fazem parte de um laboratório, com seus membros, orientador e supervisor, tendo vagas ou não, podem ser de extesão ou pesquisa. |
 
 ## Lista de Requisitos Não-Funcionais
 
