@@ -11,7 +11,7 @@
 | Flavio Roberto | Analista, Desenvolvedor | flaviovorthrox@yahoo.com.br|
 | Gabriel Gonçalo | Analista, Desenvolvedor |  |
 | José Flávio | Gerente, Desenvolvedor | jfmaia741@gmail.com |
-| Pedro Henrique | Analista, Desenvolvedor | |
+| Pedro Henrique | Analista, Desenvolvedor | p.h.t.s30@gmail.com |
 
 ### Matriz de Competências
 
@@ -20,11 +20,15 @@
 | Flavio Roberto | Desenvolvedor Python Django, Android Java |
 | Gabriel Gonçalo | Desenvolvedor Python, Django, C |
 | José Flávio | Gestão, Desenvolvedor Dart, Flutter, VScode, Python, Django, Markdown |
-| Pedro Henrique |  |
+| Pedro Henrique | Desenvolvedor Python Django, C, Java  |
 
 ## Perfis dos Usuários
 
 O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfis/atores:
+| Perfil   | Descrição   |
+| ---------|:---------:  |
+| Administrador | Este usuário podera realizar qualquer função. |
+| Usuário | Este usuário podera comentar post, vê laboratorios e projetos, vê eventos existentes, vê noticias e solicitar criação de post. |
 
 
 ## Lista de Requisitos Funcionais
