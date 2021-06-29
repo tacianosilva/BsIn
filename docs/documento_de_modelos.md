@@ -13,8 +13,56 @@
 Descrição sucinta das entidades presentes no sistema.
 
 ## Dicionário de Dados
+### Usuário 
+| Atributo | classe | Tipo | Tamanho | Descrição |
+| -------- | ------ | ---- | ------- | --------- |
+| nomeUsuár| Determinante | Texto | 50 | Nome do usuário ao realizar login |
+| senhaUsuár | Simples | Texto | 30 | Senha do usuário |
+| statusLog | Multivalorado |
+| dataCadastr | Simples | Data | | Formato dd/mm/aaaa | 
+| email | Simples | Texto | 50 | Email do usuário | 
 
-Geralmente uma tabela que descreve os limites e restrições de cada atributo/campo das entidades persistidas (tabelas).
+### Noticias
+| Atributo | classe | Tipo | Tamanho | Descrição |
+| -------- | ------ | ---- | ------- | --------- |
+|nomeAutor | Simples | Texto | 50 |  |
+| tituloNoticia | Simples | Texto |  |  
+| dataPubli | Simples | Data |  | Formato dd/mm/aaaa |
+
+### Autor
+| Atributo | classe | Tipo | Tamanho | Descrição |
+| -------- | ------ | ---- | ------- | --------- |
+| permissaoAdm | Simples | Boleano |
+
+### Administrador 
+| Atributo | classe | Tipo | Tamanho | Descrição |
+| -------- | ------ | ---- | ------- | --------- |
+| nomeAdm | simples | Texto | 50 |
+| senhaAdm | simples | Texto | 50 |
+
+### Laboratório
+| Atributo | classe | Tipo | Tamanho | Descrição |
+| -------- | ------ | ---- | ------- | --------- |
+| nomeLaboratorio | Simples | Texto |
+| NomeCoordenador | Simples | Texto |
+
+### Evento
+| Atributo | classe | Tipo | Tamanho | Descrição |
+| -------- | ------ | ---- | ------- | --------- |
+| nomeCoordenadorEvento | Simples | Texto | 50 |
+| nomeEvento | Simples | Texto | 50 |
+| dataInicio | Simples | Data | | Formato dd/mm/aaaa|
+| dataEncerramento | Simples | Data | | Formato dd/mm/aaaa|
+| Gratuito | Simples | boleano | 
+
+### Projeto
+| Atributo | classe | Tipo | Tamanho | Descrição |
+| -------- | ------ | ---- | ------- | --------- |
+| nomeCoordProjeto | Simples | Texto | 50 |
+| nomeProjeto | Simples | Texto | 50 |
+| objetivoProjeto | Simples | Texto | 200 |
+| dataInicio | Simples | Data | | Formato dd/mm/aaaa|
+
 
 ### Referências
 
