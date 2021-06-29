@@ -6,7 +6,7 @@
 
 ## Modelo Conceitual
 
-[Link para o modelo](https://whimsical.com/2bn9CaFL7wd13ZWvYS2Ekd@2Ux7TurymMmgVQB5Ls7w)
+[Link para o modelo](https://github.com/JFmaia/BsIn/blob/main/images/umlproj.PNG)
 
 ### Descrição das Entidades
 
