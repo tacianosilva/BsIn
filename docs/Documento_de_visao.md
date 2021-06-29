@@ -35,17 +35,14 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 
 | Requisitos | Descrição | Ator |
 | ---------- | :-------: | :--: |
-| RF001 - Manter cadastro de Autores | Cadastro dos Autores/Administradores dos Site | Administrador |
-| RF002 - Manter cadastro de Usurário | O usuario se cadastrará na aplicação, no cadastro de usuario tem nome, e-mail, matricula, senha e celular. | Usuário |
-| RF003 - Manter cadastro de Post| Post terá codigo, autor ,titulo, data, descrição, imagem. | Administrador |
-| RF004 - Manter cadastro para os Comentarios | Administrar os comentarios: autorizar ou apagar-los. | Administrador |
-| RF005 - Manter cadastro de Evento | O evento tem codigo, titulo, data, descrição, imagem, palestras, mini-cursos, oficinas e link. | Administrador |
-| RF006 - Manter cadastro de Projetos | O projeto tem codigo, titulo, autores, descrição , estado, candidatos,supervisor e orientador. | Administrador |
-| RF007 - Manter cadastro de Noticias | Divulgar noticias com links externos tendo assim codigo, autor, titulo, descrição e link. | Administrador |
-| RF008 - Manter cadastro de Comentarios | O Usuário poderá fazer um comentario, edita-lo ou exclui-lo.| Usuário |
-| RF009 - Manter cadastro de Laboratórios | O laboratório tem codigo, titulo, encarregados, descrição, projetos, membros. | Administrador |
-| RF010 - Manter solicitação de post| A solicitação terá, codigo, autor ,titulo, data, descrição, imagem e será solicitado pelo usuário. | Usuário |
-
+| RF001 - Manter Autores | Cadastro de autor,alterar, consultar e deletar autor. | Administrador |
+| RF002 - Manter Usurário | O usuario se cadastrará na aplicação, poderá alterar seus dados, consultar seu perfil e se desejar excluir seu cadastro. | Usuário |
+| RF003 - Manter Post| Poderá ser cadastrado, alterado, consultado, excluido, tendo também um status de aprovado ou em analise, pois os usuários irão poder fazer post, mas serão analisado podendo ou não ser aceito. | Administrador |
+| RF004 - Manter Comentarios | Os comentatios serão criados, podendo ser alterados, consultados e excluidos, pois tendo qualquer ameaça,preconceito(racismo,maxismo,homofobia, etc..) | Administrador/Usuário |
+| RF005 - Manter Evento | O evento será criado pelo administrador, podendo ser alterado, consultado e excluido. | Administrador |
+| RF006 - Manter Projetos | O projeto será criado pelo administrador, podendo ser alterado, consultado e excluido. | Administrador |
+| RF007 - Manter Noticias | A notícia será criado pelo administrador, podendo ser alterado, consultado e excluido. | Administrador |
+| RF008 - Manter Laboratórios | O laboratório será criado pelo administrador, podendo ser alterado, consultado e excluido. | Administrador |
 
 ### Modelo Conceitual
 
@@ -54,7 +51,15 @@ Abaixo apresentamos o modelo conceitual usando o __YUML__.
 
 #### Descrição das Entidades
 
-...
+| Entidade | Descrição |
+| -------- | :-------: |
+| Usuário  | O usuário é uma entidade que aproveitara a aplicação explorandoa e usufruindo das informações oferecidas, podendo ele também contribuir, com seus comentarios e sugestões de posts. |
+| Adiministrador | Sendo como um moderador, podendo fazer tudo na aplicação desde criar a excluir, claro com a máxima cautela, moderando e também dando direitos a outras pessoas para ajudar e escrever post, sendo esses os autores. |
+| Autor | O autor tem direitos, para fazer post, cadastrar laboratório, evento, projetos e notícias, mas não podendo excluir usuarios e nem claro os adms. |
+| Notícia | Uma informação em destaque no site onde terá para todos verem, tendo o titulo do autor, data e descrição, podendo tbm ser feitos comentários nela. |
+| Evento | Evento como já dito pode ser uma data especial, uma comemoração ou uam reunião, como a semana do bsi, onde temos palestras, coffe break e minicursos, tendo assim suas descrição, data de inicio e fim. |
+| Laboratórios | Os laboratórios são os lugares onde muitos alunos e professores usam para fazer e estudar seus projetos, seja de extensão ou pesquisa, claro com alguem tomando conta de tudo sendo o responsavel e criador do laboratório. |
+| Projetos | Projetos fazem parte de um laboratório, com seus membros, orientador e supervisor, tendo vagas ou não, podem ser de extesão ou pesquisa. |
 
 ## Lista de Requisitos Não-Funcionais
 
