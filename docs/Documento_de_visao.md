@@ -41,29 +41,34 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 | RF004 - Deletar Usuário | O usuário poderá deletar sua conta no site, excluindo seus dados . | Usuário |
 | RF005 - Cadastrar Autores | O administrador cadastrará um autor, dando permisão para ele, com a permisão o autor poderá fazer posts, cadastros de eventos, cadastros de laboratórios, cadastro de projetos e publicar notícias. | Administrador |
 | RF006 - Deletar Autores | O administrador irá tirar os diretos de autor de um usuario. | Administrador |
-| RF007 - Cadastrar Post | Cadastrar um post requer os atributos, titulo, descrição, imagem(opcional), dataPost, autor, comentarios. | Administrador/Autor |
+| RF007 - Cadastrar Post | Cadastrar um post requer os atributos, titulo, descrição, imagem(opcional), dataPost, autor, comentarios, dataUpdate. | Administrador/Autor |
 | RF008 - Alterar Post | Alterar um post mudanças nos atributos, titulo, descrição, imagem(opcional). | Administrador/Autor |
 | RF009 - Listar Posts | Será uma funcionalidade onde listará todos os posts e seus comentarios para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
 | RF010 - Deletar Post | Poderá ser deletado um post, sé o post tiver sido ofensivo, com coteudo improprio e com qualquer tipo de preconceito. | Administrador |
 | RF011 - Analisar Post | Todo post criado por um usuario para um post deve passar pela analise de um administrador para poder entrar no ar. | Administrador |
 | RF012 - Solicitação de Post | O usuário pode fazer uma solicitação de post, que seria a criação de um post que fica na espera da aceitação do administrador. | Usuário |
-| RF013 - Cadastrar Evento | Evento tem como atributos, nomeCordEvento, title, dataInicio, dataFinal, descrição, imagem(opcional), isFree. | Administrador/Autor |
+| RF013 - Cadastrar Evento | Evento tem como atributos, nomeCordEvento, title, dataInicio, dataFinal, descrição, imagem(opcional), isFree, dataUpdate. | Administrador/Autor |
 | RF014 - Alterar Evento | Em evento pode ser alterado, nomeCordEvento, title, dataInicio, dataFinal, descrição, imagem(opcional), isFree. | Administrador/Autor |
 | RF015 - Listar Eventos | Será uma funcionalidade onde listará todos os eventos criados para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
 | RF016 - Deletar Eventos | Deletar evento também só é feito pelo administrador. | Administrador |
-| RF017 - Cadastrar Laboratório | Ao cadastrar laboratório terá os atributos, nomeLab, nomeCord, membros, projetos, descrição, dataInicio. | Administrador/Autor |
+| RF017 - Cadastrar Laboratório | Ao cadastrar laboratório terá os atributos, nomeLab, nomeCord, membros, projetos, descrição, dataInicio, dataUpdate. | Administrador/Autor |
 | RF018 - Alterar Laboratório | Alterar laboratório poderá alterar os atributos, nomeLab, nomeCord, membros, projetos, descrição, dataInicio. | Administrador/Autor |
 | RF019 - Listar Laboratórios |Será uma funcionalidade onde listará todos os laboratórios criados para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
 | RF020 - Deletar Laboratório |  Deletar Laboratório também só é feito pelo administrador. | Administrador |
-| RF021 - Cadastrar Projeto | Cadastrar projeto tem como atributos, nomeProj, nomeCord, descrição, dataInicio, status, membros. | Administrador/Autor |
+| RF021 - Cadastrar Projeto | Cadastrar projeto tem como atributos, nomeProj, nomeCord, descrição, dataInicio, status, membros, dataUpdate. | Administrador/Autor |
 | RF022 - Alterar Projeto | Alterar projeto pode mudar os atributos, nomeProj, nomeCord, descrição, dataInicio, status, membros. | Administrador/Autor |
 | RF023 - Listar Projetos | Será uma funcionalidade onde listará todos os projetos criados para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
 | RF024 - Deletar Projeto | Deletar projeto também só é feito pelo administrador. | Administrador |
-| RF025 - Cadastrar Notícia | Cadastrar notícia tem como atributos, title, nomeAutor, dataPubli, comentarios, descrição. | Administrador/Autor |
+| RF025 - Cadastrar Notícia | Cadastrar notícia tem como atributos, title, nomeAutor, dataPubli, comentarios, descrição,, dataUpdate. | Administrador/Autor |
 | RF026 - Alterar Notícia | Alterar notícia tem como alterar os atributos, title, nomeAutor e descrição. | Administrador/Autor |
 | RF027 - Listar Notícias | Será uma funcionalidade onde listará todos os notícias criadas para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
 | RF028 - Deletar Notícia | Deletar notícia também só é feito pelo administrador. | Administrador |
-
+| RF029 - Fazer Comentario | Comentario tem como atributos, nomeUser, dataComent, decricão, dataUpdate.| Administrador/Autor/Usuário |
+| RF030 - Alterar Comentario | Alterar Comentario tem como mudar a decricão.| Administrador/Autor/Usuário |
+| RF031 - Listar Comentarios do Post | Quando o Post for listado cada post terá sua lista de comentarios que serão listados também.| Administrador/Autor/Usuário |
+| RF032 - Listar Comentarios da Notícia | Quando uma notícia for listada cada uma terá sua lista de comentarios que serão listados também.| Administrador/Autor/Usuário |
+| RF033 - Deletar Comentario | Deletar comentario é uma funcionalidade que todos podem realizar .| Administrador/Autor/Usuário |
+| RF034 - Banir Usuário| Funcionalidade extrema onde um usuário por mau conduta terá sua conta excluida do sistema e seu email será invalido para o sistema. | Administrador |
 
 ### Modelo Conceitual
 
