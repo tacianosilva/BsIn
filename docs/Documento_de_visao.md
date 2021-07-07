@@ -35,14 +35,18 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 
 | Requisitos | Descrição | Ator |
 | ---------- | :-------: | :--: |
-| RF001 - Manter Autores | Cadastro de autor,alterar, consultar e deletar autor. | Administrador |
-| RF002 - Manter Usurário | O usuario se cadastrará na aplicação, poderá alterar seus dados, consultar seu perfil e se desejar excluir seu cadastro. | Usuário |
-| RF003 - Manter Post| Poderá ser cadastrado, alterado, consultado, excluido, tendo também um status de aprovado ou em analise, pois os usuários irão poder fazer post, mas serão analisado podendo ou não ser aceito. | Administrador |
-| RF004 - Manter Comentarios | Os comentatios serão criados, podendo ser alterados, consultados e excluidos, pois tendo qualquer ameaça,preconceito(racismo,maxismo,homofobia, etc..) | Administrador/Usuário |
-| RF005 - Manter Evento | O evento será criado pelo administrador, podendo ser alterado, consultado e excluido. | Administrador |
-| RF006 - Manter Projetos | O projeto será criado pelo administrador, podendo ser alterado, consultado e excluido. | Administrador |
-| RF007 - Manter Noticias | A notícia será criado pelo administrador, podendo ser alterado, consultado e excluido. | Administrador |
-| RF008 - Manter Laboratórios | O laboratório será criado pelo administrador, podendo ser alterado, consultado e excluido. | Administrador |
+| RF001 - Cadastrar Usuário | O usuário terá como atributos, nome, senha, status, dataCadastro, email, foto, statusAutor,mod, ele poderá realizar comentarios e solicitação de Post. | Usuário |
+| RF002 - Alterar Usuário | O usuário poderá alterar seus dados esses que são, nome, senha, email, foto. | Usuário |
+| RF003 - Perfil Usuário | O usuário poderá ver seus dados esses que são, nome, senha, email, foto e se ele é um autor ou administrador. | Usuário |
+| RF004 - Deletar Usuário | O usuário poderá deletar sua conta no site, excluindo seus dados . | Usuário |
+| RF005 - Cadastrar Autores | O administrador cadastrará um autor, dando permisão para ele, com a permisão o autor poderá fazer posts, cadastros de eventos, cadastros de laboratórios, cadastro de projetos e publicar notícias. | Administrador |
+| RF006 - Deletar Autores | O administrador irá tirar os diretos de autor de um usuario. | Administrador |
+| RF007 - Cadastrar Post | Cadastrar um post requer os atributos, titulo, descrição, imagem(opcional), dataPost, autor. | Administrador/Autor |
+| RF008 - Alterar Post | Alterar um post mudanças nos atributos, titulo, descrição, imagem(opcional). | Administrador/Autor |
+| RF009 - Listar Posts | Será uma funcionalidade onde listará todos os posts feitos e seus comentarios para o administrador e autor, podendo também buscando um post específico por nome. | Administrador/Autor |
+| RF010 - Listar Posts para usuário | Será uma funcionalidade onde listará todos os posts feitos pela ordem da data e seus comentarios para o usuario na HomePage. | Usuário |
+| RF011 - Deletar Post | Poderá ser deletado um post, sé o post tiver sido ofensivo, com coteudo improprio e com qualquer tipo de preconceito. | Administrador |
+| RF012 - Analisar Post | Todo post criado por um autor ou sendo uma solicitação de usuario para um post deve passar pela analise de um administrador para poder entrar no ar. | Administrador |
 
 ### Modelo Conceitual
 
