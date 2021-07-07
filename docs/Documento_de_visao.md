@@ -43,10 +43,15 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 | RF006 - Deletar Autores | O administrador irá tirar os diretos de autor de um usuario. | Administrador |
 | RF007 - Cadastrar Post | Cadastrar um post requer os atributos, titulo, descrição, imagem(opcional), dataPost, autor. | Administrador/Autor |
 | RF008 - Alterar Post | Alterar um post mudanças nos atributos, titulo, descrição, imagem(opcional). | Administrador/Autor |
-| RF009 - Listar Posts | Será uma funcionalidade onde listará todos os posts feitos e seus comentarios para o administrador e autor, podendo também buscando um post específico por nome. | Administrador/Autor |
-| RF010 - Listar Posts para usuário | Será uma funcionalidade onde listará todos os posts feitos pela ordem da data e seus comentarios para o usuario na HomePage. | Usuário |
-| RF011 - Deletar Post | Poderá ser deletado um post, sé o post tiver sido ofensivo, com coteudo improprio e com qualquer tipo de preconceito. | Administrador |
-| RF012 - Analisar Post | Todo post criado por um autor ou sendo uma solicitação de usuario para um post deve passar pela analise de um administrador para poder entrar no ar. | Administrador |
+| RF009 - Listar Posts | Será uma funcionalidade onde listará todos os posts e seus comentarios para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
+| RF010 - Deletar Post | Poderá ser deletado um post, sé o post tiver sido ofensivo, com coteudo improprio e com qualquer tipo de preconceito. | Administrador |
+| RF011 - Analisar Post | Todo post criado por um usuario para um post deve passar pela analise de um administrador para poder entrar no ar. | Administrador |
+| RF012 - Solicitação de Post | O usuário pode fazer uma solicitação de post, que seria a criação de um post que fica na espera da aceitação do administrador. | Usuário |
+| RF013 - Cadastrar Evento | Evento tem como atributos, nomeCordEvento, title, dataInicio, dataFinal, descrição, imagem(opcional), isFree. | Administrador/Autor |
+| RF014 - Alterar Evento | Em evento pode ser alterado, nomeCordEvento, title, dataInicio, dataFinal, descrição, imagem(opcional), isFree. | Administrador/Autor |
+| RF015 - Listar Eventos | Será uma funcionalidade onde listará todos os eventos criados para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
+| RF015 - Deletar Eventos | Deletar evento também só é feito pelo administrador. | Administrador |
+
 
 ### Modelo Conceitual
 
