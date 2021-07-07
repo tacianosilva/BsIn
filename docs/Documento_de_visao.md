@@ -50,7 +50,11 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 | RF013 - Cadastrar Evento | Evento tem como atributos, nomeCordEvento, title, dataInicio, dataFinal, descrição, imagem(opcional), isFree. | Administrador/Autor |
 | RF014 - Alterar Evento | Em evento pode ser alterado, nomeCordEvento, title, dataInicio, dataFinal, descrição, imagem(opcional), isFree. | Administrador/Autor |
 | RF015 - Listar Eventos | Será uma funcionalidade onde listará todos os eventos criados para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
-| RF015 - Deletar Eventos | Deletar evento também só é feito pelo administrador. | Administrador |
+| RF016 - Deletar Eventos | Deletar evento também só é feito pelo administrador. | Administrador |
+| RF017 - Cadastrar Laboratório | Ao cadastrar laboratório terá os atributos, nomeLab, nomeCord, membros, projetos, descrição, dataInicio. | Administrador/Autor |
+| RF018 - Alterar Laboratório | Alterar laboratório poderá alterar os atributos, nomeLab, nomeCord, membros, projetos, descrição, dataInicio. | Administrador/Autor |
+| RF019 - Listar Laboratórios |Será uma funcionalidade onde listará todos os laboratórios criados para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
+| RF020 - Deletar Laboratório |  Deletar Laboratório também só é feito pelo administrador. | Administrador |
 
 
 ### Modelo Conceitual
