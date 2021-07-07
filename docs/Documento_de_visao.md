@@ -41,7 +41,7 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 | RF004 - Deletar Usuário | O usuário poderá deletar sua conta no site, excluindo seus dados . | Usuário |
 | RF005 - Cadastrar Autores | O administrador cadastrará um autor, dando permisão para ele, com a permisão o autor poderá fazer posts, cadastros de eventos, cadastros de laboratórios, cadastro de projetos e publicar notícias. | Administrador |
 | RF006 - Deletar Autores | O administrador irá tirar os diretos de autor de um usuario. | Administrador |
-| RF007 - Cadastrar Post | Cadastrar um post requer os atributos, titulo, descrição, imagem(opcional), dataPost, autor. | Administrador/Autor |
+| RF007 - Cadastrar Post | Cadastrar um post requer os atributos, titulo, descrição, imagem(opcional), dataPost, autor, comentarios. | Administrador/Autor |
 | RF008 - Alterar Post | Alterar um post mudanças nos atributos, titulo, descrição, imagem(opcional). | Administrador/Autor |
 | RF009 - Listar Posts | Será uma funcionalidade onde listará todos os posts e seus comentarios para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
 | RF010 - Deletar Post | Poderá ser deletado um post, sé o post tiver sido ofensivo, com coteudo improprio e com qualquer tipo de preconceito. | Administrador |
@@ -59,6 +59,11 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 | RF022 - Alterar Projeto | Alterar projeto pode mudar os atributos, nomeProj, nomeCord, descrição, dataInicio, status, membros. | Administrador/Autor |
 | RF023 - Listar Projetos | Será uma funcionalidade onde listará todos os projetos criados para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
 | RF024 - Deletar Projeto | Deletar projeto também só é feito pelo administrador. | Administrador |
+| RF025 - Cadastrar Notícia | Cadastrar notícia tem como atributos, title, nomeAutor, dataPubli, comentarios, descrição. | Administrador/Autor |
+| RF026 - Alterar Notícia | Alterar notícia tem como alterar os atributos, title, nomeAutor e descrição. | Administrador/Autor |
+| RF027 - Listar Notícias | Será uma funcionalidade onde listará todos os notícias criadas para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
+| RF028 - Deletar Notícia | Deletar notícia também só é feito pelo administrador. | Administrador |
+
 
 ### Modelo Conceitual
 
