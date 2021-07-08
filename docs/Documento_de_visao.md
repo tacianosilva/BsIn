@@ -70,9 +70,7 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 | RF033 - Listar Comentarios da Notícia | Quando uma notícia for listada cada uma terá sua lista de comentarios que serão listados também.| Administrador/Autor/Usuário |
 | RF034 - Deletar Comentario | Deletar comentario é uma funcionalidade que todos podem realizar .| Administrador/Autor/Usuário |
 | RF035 - Banir Usuário| Funcionalidade extrema onde um usuário por mau conduta terá sua conta excluida do sistema e seu email será invalido para o sistema. | Administrador |
-| RF036- Buscar no Post | Funcionalidade que pode ser usada por todos os tipos de usúarios do sistema, essa funcionalidade irá fazer uma busca no sistema pelo post que você digitou | Administrador, Autor, Usuário |
-
-
+| RF036- Buscar Posts | Funcionalidade que pode ser usada por todos os tipos de usúarios do sistema, essa funcionalidade irá fazer uma busca no sistema pelo post que você digitou | Administrador, Autor, Usuário |
 
 ### Modelo Conceitual
 
