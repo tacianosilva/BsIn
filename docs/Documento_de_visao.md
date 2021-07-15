@@ -56,7 +56,7 @@ O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfi
 | RF019 - Alterar Laboratório | Alterar laboratório poderá alterar os atributos, nomeLab, nomeCord, membros, projetos, descrição, dataInicio. | Administrador/Autor |
 | RF020 - Listar Laboratórios |Será uma funcionalidade onde listará todos os laboratórios criados para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
 | RF021 - Deletar Laboratório |  Deletar Laboratório também só é feito pelo administrador. | Administrador |
-| RF022 - Cadastrar Projeto | Cadastrar projeto tem como atributos, nomeProj, nomeCord, descrição, dataInicio, status, membros, dataUpdate. | Administrador/Autor |
+| RF022 - Cadastrar Projeto | Cadastrar projeto tem como atributos, nomeProj, nomeCord, descrição, dataInicio, status, membros, dataUpdate, nomeLabora. | Administrador/Autor |
 | RF023 - Alterar Projeto | Alterar projeto pode mudar os atributos, nomeProj, nomeCord, descrição, dataInicio, status, membros. | Administrador/Autor |
 | RF024 - Listar Projetos | Será uma funcionalidade onde listará todos os projetos criados para o administrador, autor e usuário, claro que para o administrador terá a opção de deletar e para o autor só de alterar. | Administrador/Autor/Usuário |
 | RF025 - Deletar Projeto | Deletar projeto também só é feito pelo administrador. | Administrador |
