@@ -25,17 +25,20 @@ Tamanho Funcional **Ci = 275 PF** ( (275 -35%) PF < Ci <= (275 +35%) PF)
 
 *Gabriel*
 ### Duração e custo considerando produtividade 1h/PF e Ci = (275 -35%) PF
-| Entidades Relacionadas     |  PF  | Duração | |
-|--------------------------- |------| ------- | 
-| Administrador              |  15  |   15h   |
-| Autor                      |  15  |   15h   |
-| Usuário                    |  35  |   35h   |
-| Evento                     |  35  |   35h   |
-| Laboratório                |  35  |   35h   |
-| Post                       |  35  |   35h   |
-| Notícia                    |  35  |   35h   |
-| Projeto                    |  35  |   35h   |
-| Comentario                 |  35  |   35h   |
+
+| Entidades Relacionadas     |  PF  | Duração | Custo para o projeto| 
+|--------------------------- |------| ------- | --------------------|
+| Administrador              |  15  |   15h   |       R$ 81         |
+| Autor                      |  15  |   15h   |       R$ 81         |
+| Usuário                    |  35  |   35h   |       R$ 189        |
+| Evento                     |  35  |   35h   |       R$ 189        |
+| Laboratório                |  35  |   35h   |       R$ 189        |
+| Post                       |  35  |   35h   |       R$ 189        |
+| Notícia                    |  35  |   35h   |       R$ 189        |
+| Projeto                    |  35  |   35h   |       R$ 189        |
+| Comentario                 |  35  |   35h   |       R$ 189        |
+| Total                      |  275 |   275h  |       R$ 1485       |
+
 
 ## Contagem Estimativa (Ce)
 
