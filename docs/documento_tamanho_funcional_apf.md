@@ -32,6 +32,20 @@ DFP= 275 PF
 ### Duração e custo considerando produtividade 1h/PF e Ci = 178,75 PF
 
 
+| Entidades Relacionadas     |  PF  | Duração | Custo para o projeto| 
+|--------------------------- |------| ------- | --------------------|
+| Administrador              |  15  |   15h   |       R$ 81         |
+| Autor                      |  15  |   15h   |       R$ 81         |
+| Usuário                    |  35  |   35h   |       R$ 189        |
+| Evento                     |  35  |   35h   |       R$ 189        |
+| Laboratório                |  35  |   35h   |       R$ 189        |
+| Post                       |  35  |   35h   |       R$ 189        |
+| Notícia                    |  35  |   35h   |       R$ 189        |
+| Projeto                    |  35  |   35h   |       R$ 189        |
+| Comentario                 |  35  |   35h   |       R$ 189        |
+| Total                      |  275 |   275h  |       R$ 1485       |
+
+
 ## Contagem Estimativa (Ce)
 
 Na Ce todas as funções de dados são classificados como baixa complexidade.
