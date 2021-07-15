@@ -77,7 +77,7 @@ As atividades da **Iteração 2** são:
 * Criar documento com o **Termo de Abertura do Projeto - TAP**, no google docs
   * O termo de abertura deve ser feito só no google drive.
   * Pesquise modelos deste documento para comparar;
-  * [Modelo do Google Docs](https://docs.google.com/document/d/1xGwEppR2qmQ7H3EdevWBCWferzY3RuoZim_GEz6LZ90/edit?usp=sharing);
+  * [Modelo do Google Docs](https://docs.google.com/document/d/1huAQAJZqdNiqcEudpXUQJ2KaIQAGT65Wpqqx-LT8ZCs/edit?usp=sharing);
 
 #### Gerentes It02
 

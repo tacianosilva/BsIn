@@ -17,14 +17,20 @@ e os **AIEs** (Arquivos de Interface Externa) com o valor de **15 PF** cada.
 | ALI Projeto       | Projeto                    |  35  |
 | ALI Comentario    | Comentario                 |  35  |
 
-*Zorrin*
-Tamanho Funcional **Ci = 275 PF** ( 178,75 PF < Ci <= 371,25 PF)
 
-*Zorrin*
+Tamanho Funcional **Ci = 275 PF** ( (275 -35%) PF < Ci <= (275 +35%) PF)
+7 ALI * 35 PF= 245
+2 AIE * 15 PF= 30 
+DFP= 275 PF
+
+
 ### Duração e custo considerando produtividade 8h/PF e Ci = 275 PF 
+275 PF * 8h/PF= 2200H
+2200h/8h = 275 Dias
 
-*Gabriel*
+
 ### Duração e custo considerando produtividade 1h/PF e Ci = 178,75 PF
+
 
 ## Contagem Estimativa (Ce)
 
