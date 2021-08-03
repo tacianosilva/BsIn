@@ -18,4 +18,8 @@ O projeto BsIn tem como objetivo prover uma aplicação web que ajude e informe 
 - [Documento de modelos](https://github.com/JFmaia/BsIn/blob/main/docs/documento_de_modelos.md)
 - [Tutorial](https://github.com/JFmaia/BsIn/blob/main/docs/tutorial.md)
 
+## Como contribuir
+
+ * [Dicas Git e GitHub](https://github.com/tacianosilva/eng-software-2/blob/master/docs/github.md)
+ * [Nosso GitFlow](https://github.com/tacianosilva/eng-software-2/blob/master/docs/doc-gitflow.md)
 
