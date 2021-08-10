@@ -3,6 +3,14 @@ from .models import Post
 from django.shortcuts import render, get_object_or_404
 from .forms import CommentForm
 from django.urls import reverse_lazy
+from django.contrib import messages
+from django.shortcuts import redirect, render
+from django.views.decorators.csrf import csrf_protect
+from django.contrib.auth import authenticate, login, logout
+from django.contrib import messages
+from .forms import CadastroUsuarioForm
+from django.contrib.auth.models import User
+from django.core.exceptions import ValidationError
 
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')
@@ -51,4 +59,34 @@ class PostDelete(generic.DeleteView):
     template_name = 'post_delete.html'
     success_url = reverse_lazy('home')
 
-    
+
+
+def cadastrar_user(request):
+    if request.method == "POST":
+        form_usuario = CadastroUsuarioForm(request.POST)
+        if form_usuario.is_valid():
+            try:
+                criar_usuario(request, form_usuario)
+                messages.success(request, 'Usuário cadastrado com sucesso.')
+                return redirect('teste.html')
+            except ValidationError as e:
+                form_usuario.add_error(None, e)
+        else:
+            messages.error(request, 'O formulário contém dados inválidos!')
+    else:
+        form_usuario = CadastroUsuarioForm()
+    return render(request, 'cadastro.html', {'form_usuario': form_usuario})
+
+
+def check_email(request, form_usuario):
+    email = form_usuario.cleaned_data.get('email')
+    if User.objects.filter(email=email).exists():
+        msg = 'O e-mail informado já foi cadastrado!'
+        messages.error(request, msg)
+        form_usuario.add_error('email', msg)
+        raise ValidationError("Email já existe!")
+
+def criar_usuario(request, form_usuario):
+    usuario = form_usuario.save(commit=False)
+    check_email(request, form_usuario)
+    usuario.save()
