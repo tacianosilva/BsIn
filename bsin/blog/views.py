@@ -106,4 +106,4 @@ def submit_login(request):
             return redirect('index.html')
         else:
             messages.success(request,"Usuário ou senha inválido! Tente novamente.")
-    return redirect('/login/')
+    return redirect('login.html')
