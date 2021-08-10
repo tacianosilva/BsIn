@@ -111,6 +111,7 @@ ENV/
 env.bak/
 venv.bak/
 bsin/venv
+bsin/mayuri
 
 # Spyder project settings
 .spyderproject
