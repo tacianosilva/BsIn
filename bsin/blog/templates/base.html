@@ -49,7 +49,7 @@
 
                         {% if user.is_authenticated %}
                             <li class="nav-item ">
-                                <a class="nav-link " href="  ">Adicionar Post</a>
+                                <a class="nav-link " href=" {% url 'post_create' %} ">Adicionar Post</a>
                             </li>
                         <!-- logout sai automaticamente se clicar e volta pro home sem preciar de template  -->        
                             <li class="nav-item ">
