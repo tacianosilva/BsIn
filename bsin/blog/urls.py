@@ -7,4 +7,5 @@ urlpatterns = [
     path('create', views.PostCreate.as_view(), name='post_create'),
     path('update/<int:pk>', views.PostUpdate.as_view(), name='post_update'),
     path('delete/<int:pk>', views.PostDelete.as_view(), name='post_delete'),
+    path('cadastrar/', views.cadastrar_user, name = 'cadastrar_user'),
 ]
