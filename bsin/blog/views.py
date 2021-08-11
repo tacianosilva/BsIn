@@ -68,14 +68,14 @@ def cadastrar_user(request):
             try:
                 criar_usuario(request, form_usuario)
                 messages.success(request, 'Usuário cadastrado com sucesso.')
-                return redirect('teste.html')
+                return redirect('home')
             except ValidationError as e:
                 form_usuario.add_error(None, e)
         else:
             messages.error(request, 'O formulário contém dados inválidos!')
     else:
         form_usuario = CadastroUsuarioForm()
-    return render(request, 'cadastro.html', {'form_usuario': form_usuario})
+    return render(request, 'cadastro/cadastro.html', {'form_usuario': form_usuario})
 
 
 def check_email(request, form_usuario):
@@ -93,7 +93,7 @@ def criar_usuario(request, form_usuario):
 
 
 def login_user(request):
-    return render(request, 'login.html')
+    return render(request, 'login/login.html')
 
 
 def submit_login(request):
@@ -103,7 +103,7 @@ def submit_login(request):
         user = authenticate(username = username, password = password)
         if user is not None:
             login(request, user)
-            return redirect('index.html')
+            return redirect('home')
         else:
             messages.success(request,"Usuário ou senha inválido! Tente novamente.")
-    return redirect('login.html')
+    return redirect('login/login.html')
