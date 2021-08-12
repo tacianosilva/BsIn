@@ -16,3 +16,36 @@
   <p>Faça seu login ou cadastra-se e tenha todas as informações e dicas do BSI-Ceres.</p> 
 </div>
   
+<div class= "container align-self-center d-flex justify-content-center">
+    <div class = "card" style = "width:400px">
+        <div class = "card-body">
+            <form action = "submit", method = "POST">
+                {%csrf_token%}
+                <h2>BsIn</h2>
+                <div class = "form-group">
+                    <label for = "username">Usúario</label>
+                    <input type = "text", class = "form-control" id = "username" name = "username" placeholder = "E-mail"></input>
+                </div>
+                <div class = "form-group">
+                    <label for = "password">Password</label>
+                    <input type = "password", class = "form-control"id = "password" name = "password" placeholder = "Password"></input>
+                </div>
+                <div class = "container align-self-center d-flex justify-content-center">
+                    <p>Cadastre-se</p>
+                </div>
+                <div class = "container align-self-center d-flex justify-content-center">
+                    <button type="submit" class="btn btn-dark">Entrar</button>
+                </div>
+            </form>
+            {%for message in messages%}
+                <div class="alert alert-danger">
+                        <strong>Ops!</strong> {{ message }}
+                </div>
+            {%endfor%}
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
