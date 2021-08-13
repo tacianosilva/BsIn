@@ -69,7 +69,7 @@ def cadastrar_user(request):
             try:
                 criar_usuario(request, form_usuario)
                 messages.success(request, 'Usuário cadastrado com sucesso.')
-                return redirect('home')
+                return redirect('login/login.html')
             except ValidationError as e:
                 form_usuario.add_error(None, e)
         else:
