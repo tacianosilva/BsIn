@@ -19,29 +19,43 @@
 <div class= "container align-self-center d-flex justify-content-center">
     <div class = "card" style = "width:400px">
         <div class = "card-body">
-            <form action = "submit", method = "POST">
+            {% if form_login.errors %}
+                <p style="color: red">Your username and password didn't match. Please try again.</p>
+            {% endif %}
+            <form method = "POST">
                 {%csrf_token%}
                 <h2>BsIn</h2>
                 <div class = "form-group">
-                    <label for = "username">Usúario</label>
-                    <input type = "text", class = "form-control" id = "username" name = "username" placeholder = "E-mail"></input>
+                    {% for error in form_login.username.errors %}
+                        <p style="color: red">{{ error }}</p>
+                    {% endfor %}
+                    <label>{{ form_login.username.label_tag }}</label>
+                    {{ form_login.username }}
+                    {% if form_login.username.help_text %}
+                        <p><small style="color: grey">{{ form_login.username.help_text }}</small></p>
+                    {% endif %}
                 </div>
+
                 <div class = "form-group">
-                    <label for = "password">Password</label>
-                    <input type = "password", class = "form-control"id = "password" name = "password" placeholder = "Password"></input>
+                   {% for error in form_login.password.errors %}
+                        <p style="color: red">{{ error }}</p>
+                    {% endfor %}
+                    <label>{{ form_login.password.label_tag }}</label>
+                    {{ form_login.password }}
+                    {% if form_login.password.help_text %}
+                        <p><small style="color: grey">{{ form_login.password.help_text }}</small></p>
+                    {% endif %}
                 </div>
-                <div class = "container align-self-center d-flex justify-content-center">
-                    <p>Cadastre-se</p>
-                </div>
+
                 <div class = "container align-self-center d-flex justify-content-center">
                     <button type="submit" class="btn btn-dark">Entrar</button>
                 </div>
-            </form>
-            {%for message in messages%}
-                <div class="alert alert-danger">
-                        <strong>Ops!</strong> {{ message }}
+
+                <div class = "container align-self-center d-flex justify-content-center">
+                    <a class="nav-link" href=" {% url 'cadastrar_user' %}">Cadastre-se</a>
                 </div>
-            {%endfor%}
+
+            </form>
         </div>
     </div>
 
