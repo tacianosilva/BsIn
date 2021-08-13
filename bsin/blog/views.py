@@ -5,12 +5,13 @@ from .forms import CommentForm
 from django.urls import reverse_lazy
 from django.contrib import messages
 from django.shortcuts import redirect, render
-from django.views.decorators.csrf import csrf_protect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from .forms import CadastroUsuarioForm
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
+from django.contrib.auth.forms import AuthenticationForm, PasswordChangeForm
+from django.contrib.auth.decorators import login_required, permission_required
 
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')
@@ -92,10 +93,29 @@ def criar_usuario(request, form_usuario):
     usuario.save()
 
 
+
 def login_user(request):
-    return render(request, 'login/login.html')
+    if request.method == "POST":
+        username = request.POST["username"]
+        password = request.POST["password"]
+        usuario = authenticate(request, username=username, password=password)
+        if usuario is not None:
+            login(request, usuario)
+            messages.success(request, 'Usuário logado com sucesso.')
+            return redirect('home')
+        else:
+            messages.error(request, 'Erro ao logar usuário.')
+            form_login = AuthenticationForm()
+    else:
+        form_login = AuthenticationForm()
+    return render(request, 'login/login.html', {'form_login': form_login})
+
+@login_required(login_url='/blog/templates/login/login.html')
+def deslogar_usuario(request):
+    logout(request)
+    messages.success(request, 'Usuário deslogado com sucesso.')
+    return redirect('index')
 
 
-
-def submit_login(request):
-    return redirect('login/login.html')
+def index(request):
+    return render(request, 'templates/index.html')
