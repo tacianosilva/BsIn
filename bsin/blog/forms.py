@@ -14,7 +14,7 @@ class CadastroUsuarioForm(UserCreationForm):
                                         'Letras minúsculas, números e @ . + - _ apenas.')
     email = forms.EmailField(max_length=254, required=True, help_text='Obrigatório. Informe um e-mail válido.')
 
-    foto = forms.ImageField(required=True, help_text='Obrigatório. Informe um e-mail válido.')
+    foto = forms.ImageField(required=False, help_text='Obrigatório. Informe um e-mail válido.')
 
     class Meta:
         model = User
