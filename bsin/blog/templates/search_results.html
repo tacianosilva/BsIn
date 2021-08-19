@@ -1,0 +1,63 @@
+{% extends "base.html" %} 
+
+
+{% block content %}
+
+<header class="bg-info" >
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h3 class=" site-heading my-4 mt-3 text-white"> Bem vindo ao BSI Info </h3>
+                    <p class="text-light">
+                        Estamos aqui para ajudar !
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-md-8 mt-4 left">
+            {% for post in post_list %}
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">{{ post.title }}</h2>
+                    <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
+                    <p class="card-text">{{post.content|slice:":800" }}</p>
+                    <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
+                </div>
+            </div>
+            {% endfor %}
+            <div>
+                <p> <!-- bloco para criar paginação -->
+                    {% block pagination %}
+                        {% if is_paginated %}
+                            <div class="pagination">
+                                <span class="page-link">
+                                    {% if page_obj.has_previous %}
+                                        <a href="{{ request.path }}?page={{ page_obj.previous_page_number }}">previous</a>
+                                    {% endif %}
+                                    <span class="page-current">
+                                        Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                                    </span>
+                                    {% if page_obj.has_next %}
+                                        <a href="{{ request.path }}?page={{ page_obj.next_page_number }}">next</a>
+                                    {% endif %}
+                                </span>
+                                
+                            </div>
+                        {% endif %}
+                    {% endblock %} 
+                        
+                </p> 
+            </div>
+        </div>
+        {% block sidebar %} {% include 'sidebar.html' %} {% endblock sidebar %}
+        
+    </div>
+</div>
+{%endblock%}
