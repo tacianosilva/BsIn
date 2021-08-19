@@ -66,8 +66,8 @@
                         
                     </ul>
 
-                    <form class="d-flex">
-                        <input class="form-control me-sm-2" type="text" placeholder="Search">
+                    <form class="d-flex" method="GET" action="{% url 'search_results' %}">
+                        <input class="form-control me-sm-2" type="text" name="search" >
                         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 </div>
