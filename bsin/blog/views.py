@@ -119,3 +119,17 @@ def deslogar_usuario(request):
 
 def index(request):
     return render(request, 'templates/index.html')
+
+
+class PostSearch(generic.ListView):
+    model = Post
+    template_name = 'search_results.html'
+    paginate_by = 5 #paginação     
+
+    def get_queryset(self): # new
+        query = self.request.GET.get('search')
+        object_list = Post.objects.filter(title__icontains=query).order_by('-created_on')
+                
+        return object_list
+
+    
